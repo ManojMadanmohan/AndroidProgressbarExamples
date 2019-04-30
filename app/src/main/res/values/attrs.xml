@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularDiscProgressView" >
+        <attr name="disc_progress_outer_ring_color" format="color"/>
+        <attr name="disc_progress_inner_disc_color" format="color"/>
+        <attr name="disc_progress_outer_ring_thickness" format="dimension"/>
+        <attr name="disc_progress_max_progress" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularFillProgressView" >
+        <attr name="fill_progress_fill_color" format="color"/>
+        <attr name="fill_progress_background_color" format="color"/>
+        <attr name="fill_progress_max_progress" format="integer"/>
+    </declare-styleable>
+</resources>
